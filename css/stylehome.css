@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+html.body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+header {
+  height: 200px;
+  padding: 50px 0;
+}
+
+.logo {
+  width: 80%;
+}
+
+.menu {
+  width: 100%;
+  text-align: right;
+}
+
+.menu a {
+  color: #29abe2;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 100px;
+  font-family: 'Segoe UI';
+}
+
+section.sobre {
+  height: calc(100% - 200px);
+  position: relative;
+}
+
+.extras {
+  position: absolute;
+  bottom: -450px;
+  right: -500px;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  background-color: #29abe2;
+  font-family: 'Segoe UI';
+}
+
+.social-media {
+  position: absolute;
+  right: 510px;
+  top: 240px;
+}
+
+.social-media img {
+  display: block;
+  width: 40px;
+  margin: 40px 0;
+}
+
+.texto-sobre {
+  margin-top: 100px;
+}
+
+.texto-sobre h1 {
+  font-size: 50px;
+  font-family: 'Segoe UI';
+}
+
+.texto-sobre p {
+  font-family: 'Segoe UI';
+  margin: 20px 0;
+  color: #29abe2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.texto-sobre button {
+  border: 0;
+  background-color: #29abe2;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}

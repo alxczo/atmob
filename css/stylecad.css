@@ -1,0 +1,77 @@
+body {
+  background-color: #29abe2;
+}
+
+.headerlog {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  top: 0;
+}
+
+#header {
+  width: 100%;
+}
+
+#logo {
+  position: relative;
+  width: 25%;
+  padding-left: 43%;
+}
+
+.headerlog img {
+  width: 60%;
+}
+
+.footer-content {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.footer-content p {
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-family: 'Segoe UI';
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container button {
+  border-radius: 10px;
+  border: 0;
+  background-color: #29abe2;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Segoe UI';
+}
+
+.container form {
+  margin: 20px;
+}
+.container input,
+.container button,
+.container select {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.container h2 {
+  color: #29abe2;
+}
